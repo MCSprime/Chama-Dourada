@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Chama Dourada: blog de fãs sobre Elden Ring com chefes, builds e lore.">
+<title>Contatos | Chama Dourada</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>✦ Chama Dourada</h1>
+<p class="lema">Um blog de fãs para os Maculados das Terras Intermédias</p>
+<nav aria-label="Navegação principal"><a href="index.html">Home</a><a href="chefes.html">Chefes</a><a href="builds.html">Builds</a><a href="lore.html">Lore</a><a href="contatos.html" class="ativo">Contatos</a></nav>
+</header>
+<main>
+<h2>Contatos</h2>
+<p class="intro">Tem uma dica, sugestão de build ou quer falar sobre o jogo? Envie sua mensagem.</p>
+<form action="#" method="post" onsubmit="event.preventDefault();alert('Mensagem registrada! (formulário demonstrativo)')">
+<label for="nome">Nome</label><input id="nome" type="text" required>
+<label for="email">E-mail</label><input id="email" type="email" required>
+<label for="assunto">Assunto</label>
+<select id="assunto"><option>Dica</option><option>Sugestão de build</option><option>Elogio</option><option>Outro</option></select>
+<label for="msg">Mensagem</label><textarea id="msg" rows="5" required></textarea>
+<button type="submit">Enviar</button>
+</form>
+<article class="bloco"><h3>Equipe</h3><p>E-mail: contato@chamadourada.example · Instagram: @chamadourada (exemplo)</p></article>
+</main>
+<footer>
+<p>Chama Dourada · Projeto acadêmico (AOP2) · Blog de fãs não oficial.</p>
+<p>Elden Ring é marca de FromSoftware / Bandai Namco. Sem fins comerciais.</p>
+</footer>
+</body>
+</html>
